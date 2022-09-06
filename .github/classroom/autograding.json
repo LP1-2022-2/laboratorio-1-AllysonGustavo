@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Teste 1 - Geometria",
+      "setup": "make",
+      "run": "./bin/geometria retangulo 5 3",
+      "input": "",
+      "output": "Area do retangulo: 15\nPerimetro do retangulo: 16",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 2 - Geometria",
+      "setup": "make",
+      "run": "./bin/geometria triangulo 5",
+      "input": "",
+      "output": "Area do triangulo: 21.65064\nPerimetro do triangulo: 15",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 3 - Geometria",
+      "setup": "make",
+      "run": "./bin/geometria quadrado 5",
+      "input": "",
+      "output": "Area do quadrado: 25\nPerimetro do quadrado: 20",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 4 - Geometria",
+      "setup": "make",
+      "run": "./bin/geometria circulo 5",
+      "input": "",
+      "output": "Area do circulo: 78.54\nPerimetro do circulo: 31.416",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 5 - Geometria",
+      "setup": "make",
+      "run": "./bin/geometria piramide 15 21",
+      "input": "",
+      "output": "Area da piramide: 854.6\nVolume da piramide: 1470",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 6 - Geometria",
+      "setup": "make",
+      "run": "./bin/geometria cubo 5",
+      "input": "",
+      "output": "Area do cubo: 150\nVolume do cubo: 125",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 7 - Geometria",
+      "setup": "make",
+      "run": "./bin/geometria paralelepipedo 5 4 3",
+      "input": "",
+      "output": "Area do paralelepipedo: 94\nVolume do paralelepipedo: 60",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 8 - Geometria",
+      "setup": "make",
+      "run": "./bin/geometria esfera 5",
+      "input": "",
+      "output": "Area da esfera: 314.16\nVolume da esfera: 523.6",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    }    
+  ]
+}
