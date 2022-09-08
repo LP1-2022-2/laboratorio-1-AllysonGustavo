@@ -9,14 +9,14 @@ float trianguloPerimetro(float lado1, float lado2, float lado3){
 }
 
 float retanguloPerimetro(float base, float altura){
-    return base * altura;
+    return 2 * (base + altura);
 }
 
 float quadradoPerimetro(float lado){
-    return pow(lado,2);
+    return 4 * lado;
 }
 
 float circuloPerimetro(float raio){
     float pi = 3.1415;
-    return pi * pow(raio,2);
+    return 2 * pi * raio;
 }

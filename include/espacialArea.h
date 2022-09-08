@@ -1,8 +1,7 @@
 #ifndef CALCULO_H
 #define CALCULO_H
-#include <cmath>
 
-// Figuras Planas
+// Area das Figuras Espaciais
 
 float piramideArea(float base, float altura);
 float cuboArea(float base, float altura);

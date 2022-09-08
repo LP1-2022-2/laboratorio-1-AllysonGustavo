@@ -1,8 +1,7 @@
 #ifndef CALCULO_H
 #define CALCULO_H
-#include <cmath>
 
-// Figuras Planas
+// Perimetro das Figuras Planas
 
 float trianguloPerimetro(float lado1, float lado2, float lado3);
 float retanguloPerimetro(float base, float altura);
