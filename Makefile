@@ -1,6 +1,6 @@
 #SEU MAKEFILE
 
-PROG = lab1
+PROG = geometria
 CC = g++
 FLAGS  = -Wall -pedantic -Iinclude
 
