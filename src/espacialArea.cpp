@@ -2,10 +2,11 @@
 
 #include "espacialArea.h"
 
+#include "planoArea.h"
 // Figuras Planas
 
-float piramideArea(float areaBase, float areaLateral){
-    return areaBase + areaLateral;
+float piramideArea(float lado){
+    return quadradoArea(lado) * trianguloArea(lado) * 4;
 }
 
 float cuboArea(float aresta){

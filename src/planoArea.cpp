@@ -4,8 +4,8 @@
 
 // Figuras Planas
 
-float trianguloArea(float base, float altura){
-    return (base * altura)/2;
+float trianguloArea(float base){ // Triangulo equilatero
+    return (pow(base,2) * sqrt(3)) / 4;
 }
 
 float retanguloArea(float base, float altura){

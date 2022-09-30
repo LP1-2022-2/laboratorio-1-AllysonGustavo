@@ -4,23 +4,26 @@ PROG = lab1
 CC = g++
 FLAGS  = -Wall -pedantic -Iinclude
 
-$(PROG): main.o espacialArea.o espacialVolume.o planoArea.o planoPerimetro.o
-	$(CC) $(FLAGS) -o $(PROG) main.o espacialArea.o espacialVolume.o planoArea.o planoPerimetro.o
+$(PROG): main.o espacialArea.o espacialVolume.o planoArea.o planoPerimetro.o bin
+	$(CC) $(FLAGS) -o bin/$(PROG) main.o espacialArea.o espacialVolume.o planoArea.o planoPerimetro.o
 
 main.o: src/main.cpp 
-	$(CC) $(FLAGS) -c scr/main.cpp
+	$(CC) $(FLAGS) -c src/main.cpp
 
-espacialArea.o: scr/espacialArea.cpp
-	$(CC) $(FLAGS) -c scr/espacialArea.cpp
+espacialArea.o: src/espacialArea.cpp
+	$(CC) $(FLAGS) -c src/espacialArea.cpp
 
-espacialVolume.o: scr/espacialVolume.cpp
-	$(CC) $(FLAGS) -c scr/espacialVolume.cpp
+espacialVolume.o: src/espacialVolume.cpp
+	$(CC) $(FLAGS) -c src/espacialVolume.cpp
 
-planoArea.o: scr/planoArea.cpp
-	$(CC) $(FLAGS) -c scr/planoArea.cpp
+planoArea.o: src/planoArea.cpp
+	$(CC) $(FLAGS) -c src/planoArea.cpp
 
-planoPerimetro.o: scr/planoPerimetro.cpp
-	$(CC) $(FLAGS) -c scr/planoPerimetro.cpp
+planoPerimetro.o: src/planoPerimetro.cpp
+	$(CC) $(FLAGS) -c src/planoPerimetro.cpp
 
 clean:
 	rm *.o $(PROG)
+
+bin: 
+	mkdir -p bin

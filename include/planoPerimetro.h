@@ -1,5 +1,5 @@
-#ifndef CALCULO_H
-#define CALCULO_H
+#ifndef PlanoPerimetro_H
+#define PlanoPerimetro_H
 
 // Perimetro das Figuras Planas
 

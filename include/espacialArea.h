@@ -1,11 +1,11 @@
-#ifndef CALCULO_H
-#define CALCULO_H
+#ifndef EspacialArea_H
+#define EspacialArea_H
 
 // Area das Figuras Espaciais
 
-float piramideArea(float base, float altura);
-float cuboArea(float base, float altura);
-float paralelepipedoArea(float lado);
+float piramideArea(float areaBase);
+float cuboArea(float aresta);
+float paralelepipedoArea(float aresta1, float aresta2, float aresta3);
 float esferaArea(float raio);
 
 #endif
