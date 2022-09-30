@@ -33,8 +33,8 @@ int main(int argc, char *argv[]) {
     cout << "Area do triângulo: " << area << endl;
     cout << "Perimetro do triângulo: " << perimetro << endl;
   } else if (figura == "retangulo") {
-    area = retanguloPerimetro(base, altura);
-    perimetro = retanguloArea(base, altura);
+    area = retanguloArea(base, altura);
+    perimetro = retanguloPerimetro(base, altura);
     cout << "Area do retangulo: " << area << endl;
     cout << "Perimetro do retangulo: " << perimetro << endl;
   } else if (figura == "quadrado") {
