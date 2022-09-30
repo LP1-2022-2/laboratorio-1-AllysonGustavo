@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
   string figura;
   figura = argv[1];
   base = atof(argv[2]);
-  if (argc > 2) {
+  if (argc > 3) {
     altura = atof(argv[3]);
     comprimento = atof(argv[4]);
   }
