@@ -20,11 +20,14 @@ using namespace std;
 int main(int argc, char *argv[]) {
   // Capturando a string do usuario
   float area, perimetro, volume, raio;
+  float base = 0, altura = 0, comprimento = 0;
   string figura;
   figura = argv[1];
-  float base = atof(argv[2]);
-  float altura = atof(argv[3]);
-  float comprimento = atof(argv[4]);
+  base = atof(argv[2]);
+  if (argc > 2) {
+    altura = atof(argv[3]);
+    comprimento = atof(argv[4]);
+  }
 
   // -------------------   Figuras Planas   -------------------
   if (figura == "triangulo") {
